@@ -1,0 +1,19 @@
+header{
+    border: goldenrod, 1px
+}
+
+.parent > div > div {
+    color: red;
+}
+
+.parent > div > div + h4 {
+    background-color: red;
+}
+
+.parent > div > div {
+    color: blue;
+}
+
+.parent > div > div + h4 {
+    background-color: blue;
+}
